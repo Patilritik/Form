@@ -1,0 +1,15 @@
+<App xmlns="http://schemas.microsoft.com/sharepoint/2013/app/manifest"
+     Name="My Angular SharePoint Add-In"
+     ProductID="{00000000-0000-0000-0000-000000000000}"
+     Version="1.0.0.0"
+     SharePointMinVersion="16.0.0.0">
+  
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="{YOUR_CLIENT_ID}" />
+  </AppPrincipal>
+
+  <Properties>
+    <Title>My Angular SharePoint Add-In</Title>
+    <StartPage>{YOUR_APP_URL}/index.html</StartPage>
+  </Properties>
+</App>
