@@ -5,7 +5,7 @@
      SharePointMinVersion="16.0.0.0">
   
   <AppPrincipal>
-    <RemoteWebApplication ClientId="{YOUR_CLIENT_ID}" />
+    <!-- <RemoteWebApplication ClientId="{YOUR_CLIENT_ID}" /> -->
   </AppPrincipal>
 
   <Properties>
