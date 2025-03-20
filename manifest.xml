@@ -10,6 +10,7 @@
 
   <Properties>
     <Title>My Angular SharePoint Add-In</Title>
-    <StartPage>{YOUR_APP_URL}/index.html</StartPage>
+    <!-- <StartPage>{YOUR_APP_URL}/index.html</StartPage> -->
+    <StartPage>https://form-xi-self.vercel.app/</StartPage>
   </Properties>
 </App>
