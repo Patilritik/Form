@@ -1,0 +1,23 @@
+<App xmlns="http://schemas.microsoft.com/sharepoint/2013/app/manifest"
+     Name="SharePoint Addin"
+     Version="1.0.0.0"
+     ProductID="{2dbdf90b-912b-42b1-bf1c-21bf9c7e0d65}"
+     SharePointMinVersion="16.0.0.0"
+     Type="ProviderHosted"
+     >
+
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="cbec5feb-765e-4b3c-836d-5c7e949781ae" />
+  </AppPrincipal>
+
+  <Properties>
+    <Title>SharePoint Addin</Title>
+    <AppDomain>form-xi-self.vercel.app</AppDomain>
+    <StartPage>https://form-xi-self.vercel.app</StartPage>
+  </Properties>
+
+  <Permissions>
+    <Permission Right="FullControl" App="SharePoint" />
+    <Permission Right="Read" App="User Profiles" />
+  </Permissions>
+</App>
